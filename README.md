@@ -1,6 +1,6 @@
 # Pubmed-manager serverless
 
-## Test funcion
+## Test function
 
-serverless invoke local -f hello -p event.json
+serverless invoke local -f search -p event.json
 
