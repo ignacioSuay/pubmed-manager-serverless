@@ -1,0 +1,65 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3671832",
+    "retmax": "20",
+    "retstart": "0",
+    "querykey": "1",
+    "webenv": "NCID_1_253755776_130.14.22.215_9001_1527878257_2130018231_0MetA0_S_MegaStore",
+    "idlist": [
+      "29852535",
+      "29852533",
+      "29852528",
+      "29852491",
+      "29852463",
+      "29852458",
+      "29852452",
+      "29852438",
+      "29852423",
+      "29852421",
+      "29852403",
+      "29852396",
+      "29852393",
+      "29852388",
+      "29852376",
+      "29852354",
+      "29852353",
+      "29852329",
+      "29852324",
+      "29852323"
+    ],
+    "translationset": [
+      {
+        "from": "cancer",
+        "to": "\"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields]"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "\"neoplasms\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "3045659",
+        "explode": "Y"
+      },
+      {
+        "term": "\"neoplasms\"[All Fields]",
+        "field": "All Fields",
+        "count": "2438679",
+        "explode": "N"
+      },
+      "OR",
+      {
+        "term": "\"cancer\"[All Fields]",
+        "field": "All Fields",
+        "count": "1968383",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP"
+    ],
+    "querytranslation": "\"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields]"
+  }
+}
