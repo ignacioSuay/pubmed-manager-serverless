@@ -2,5 +2,5 @@
 
 ## Test function
 
-serverless invoke local -f search -p event.json
+serverless invoke local -f search -p test/resources/event.json
 

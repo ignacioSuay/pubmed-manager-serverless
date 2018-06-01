@@ -12,7 +12,7 @@ provider:
 
 functions:
   search:
-    handler: handler.search
+    handler: src/search/handler.search
     events:
       - http:
           method: get
