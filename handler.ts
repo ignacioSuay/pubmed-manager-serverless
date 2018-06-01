@@ -1,16 +1,20 @@
-interface Response {
+import axios from "axios";
+
+interface Response2 {
     statusCode: number;
     body: string;
 }
 
-export const hello = (event, context, cb) => {
-    const response: Response = {
+export const search = async (event, context) => {
+
+    const result = await axios("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=26389510&version=2.0&retmode=JSON");
+
+
+    const response: Response2 = {
         statusCode: 200,
-        body: JSON.stringify({
-            message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
-            // input: events,
-        }),
+        body: JSON.stringify(result.data),
     };
 
-    cb(null, response);
+    return response;
+    // cb(null, response);
 };
