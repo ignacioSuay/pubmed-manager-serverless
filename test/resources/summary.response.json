@@ -1,0 +1,2795 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "29857127": {
+      "uid": "29857127",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Cancer Lett",
+      "authors": [
+        {
+          "name": "Kim C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lee SG",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yang WM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Arfuso F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Um JY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kumar AP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bian J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sethi G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ahn KS",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Ahn KS",
+      "title": "Formononetin-induced oxidative stress abrogates the activation of STAT3/5 signaling axis and suppresses the tumor growth in multiple myeloma preclinical model.",
+      "sorttitle": "formononetin induced oxidative stress abrogates the activation of stat3 5 signaling axis and suppresses the tumor growth in multiple myeloma preclinical model",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7600053",
+      "issn": "0304-3835",
+      "essn": "1872-7980",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857127"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0304-3835(18)30371-9"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.canlet.2018.05.038"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857127"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857127"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2017/12/02 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/23 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/23 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Cancer letters",
+      "elocationid": "pii: S0304-3835(18)30371-9. doi: 10.1016/j.canlet.2018.05.038",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Kim C",
+      "vernaculartitle": ""
+    },
+    "29857128": {
+      "uid": "29857128",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Cancer Lett",
+      "authors": [
+        {
+          "name": "Zhao CN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Meng X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu Q",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tang GY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gan RY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li HB",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Li HB",
+      "title": "Insight into the Roles of Vitamins C and D against Cancer: Myth or Truth?",
+      "sorttitle": "insight into the roles of vitamins c and d against cancer myth or truth",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7600053",
+      "issn": "0304-3835",
+      "essn": "1872-7980",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857128"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0304-3835(18)30372-0"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.canlet.2018.05.039"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857128"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857128"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/03/29 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/17 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/24 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Cancer letters",
+      "elocationid": "pii: S0304-3835(18)30372-0. doi: 10.1016/j.canlet.2018.05.039",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Zhao CN",
+      "vernaculartitle": ""
+    },
+    "29857135": {
+      "uid": "29857135",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Eur J Pharm Biopharm",
+      "authors": [
+        {
+          "name": "Meola TR",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dening TJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Prestidge CA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Prestidge CA",
+      "title": "Nanocrystal-Silica-Lipid Hybrid Particles for the Improved Oral Delivery of Ziprasidone in vitro.",
+      "sorttitle": "nanocrystal silica lipid hybrid particles for the improved oral delivery of ziprasidone in vitro",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9109778",
+      "issn": "0939-6411",
+      "essn": "1873-3441",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857135"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0939-6411(18)30405-3"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.ejpb.2018.05.028"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857135"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857135"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/03/27 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/14 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/22 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V",
+      "elocationid": "pii: S0939-6411(18)30405-3. doi: 10.1016/j.ejpb.2018.05.028",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Meola TR",
+      "vernaculartitle": ""
+    },
+    "29857147": {
+      "uid": "29857147",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Clin Gastroenterol Hepatol",
+      "authors": [
+        {
+          "name": "May F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yano EM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Provenzale D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Brunner J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yu C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Phan J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bharath P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Aby E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dinh D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ehrlich DS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Storage TR",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lin LD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jamaluddin NN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Washington DL",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Washington DL",
+      "title": "Barriers to Follow-Up Colonoscopies for Patients With Positive Results From Fecal Immunochemical Tests During Colorectal Cancer Screening.",
+      "sorttitle": "barriers to follow up colonoscopies for patients with positive results from fecal immunochemical tests during colorectal cancer screening",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101160775",
+      "issn": "1542-3565",
+      "essn": "1542-7714",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857147"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1542-3565(18)30554-8"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.cgh.2018.05.022"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857147"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857147"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2017/08/24 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/04/24 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/20 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+      "elocationid": "pii: S1542-3565(18)30554-8. doi: 10.1016/j.cgh.2018.05.022",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "May F",
+      "vernaculartitle": ""
+    },
+    "29857164": {
+      "uid": "29857164",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Drug Discov Today",
+      "authors": [
+        {
+          "name": "Garg NK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tandel N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jadon RS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "K Tyagi R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Katare OP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Katare OP",
+      "title": "Lipid-polymer hybrid nanocarrier-mediated cancer therapeutics: current status and future directions.",
+      "sorttitle": "lipid polymer hybrid nanocarrier mediated cancer therapeutics current status and future directions",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9604391",
+      "issn": "1359-6446",
+      "essn": "1878-5832",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857164"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1359-6446(17)30504-4"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.drudis.2018.05.033"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857164"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857164"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/01/29 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/04/23 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/23 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Drug discovery today",
+      "elocationid": "pii: S1359-6446(17)30504-4. doi: 10.1016/j.drudis.2018.05.033",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Garg NK",
+      "vernaculartitle": ""
+    },
+    "29857173": {
+      "uid": "29857173",
+      "pubdate": "2018 May 24",
+      "epubdate": "2018 May 24",
+      "source": "J Inorg Biochem",
+      "authors": [
+        {
+          "name": "Becceneri AB",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Popolin CP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Plutin AM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maistro EL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Castellano EE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Batista AA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cominetti MR",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Cominetti MR",
+      "title": "The trans-[Ru(PPh&lt;sub&gt;3&lt;/sub&gt;)&lt;sub&gt;2&lt;/sub&gt;(N,N-dimethyl-N'-thiophenylthioureato-k&lt;sup&gt;2&lt;/sup&gt;O,S)(bipy)]PF&lt;sub&gt;6&lt;/sub&gt; complex has pro-apoptotic effects on triple negative breast cancer cells and presents low toxicity in vivo.",
+      "sorttitle": "trans ru pph sub 3 sub sub 2 sub n n dimethyl n thiophenylthioureato k sup 2 sup o s bipy pf sub 6 sub complex has pro apoptotic effects on triple negative breast cancer cells and presents low toxicity in vivo",
+      "volume": "186",
+      "issue": "",
+      "pages": "70-84",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7905788",
+      "issn": "0162-0134",
+      "essn": "1873-3344",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857173"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0162-0134(18)30099-0"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.jinorgbio.2018.05.011"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857173"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857173"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/03/08 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/18 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/19 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of inorganic biochemistry",
+      "elocationid": "doi: 10.1016/j.jinorgbio.2018.05.011",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/24 00:00",
+      "sortfirstauthor": "Becceneri AB",
+      "vernaculartitle": ""
+    },
+    "29857179": {
+      "uid": "29857179",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "J Pain Symptom Manage",
+      "authors": [
+        {
+          "name": "Bai J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Brubaker A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Meghani SH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bruner DW",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yeager KA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Yeager KA",
+      "title": "Spirituality and Quality of Life in Black Patients with Cancer Pain.",
+      "sorttitle": "spirituality and quality of life in black patients with cancer pain",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8605836",
+      "issn": "0885-3924",
+      "essn": "1873-6513",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857179"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0885-3924(18)30287-2"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.jpainsymman.2018.05.020"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857179"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857179"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/03/23 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/21 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/22 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of pain and symptom management",
+      "elocationid": "pii: S0885-3924(18)30287-2. doi: 10.1016/j.jpainsymman.2018.05.020",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Bai J",
+      "vernaculartitle": ""
+    },
+    "29857180": {
+      "uid": "29857180",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "J Pain Symptom Manage",
+      "authors": [
+        {
+          "name": "Singh KP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kober KM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dhruva AA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Flowers E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Paul SM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hammer MJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cartwright F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wright F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Conley YP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Levine JD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Miaskowski C",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Miaskowski C",
+      "title": "Risk Factors Associated With Chemotherapy-Induced Nausea in the Week Prior to the Next Cycle and Impact of Nausea on Quality of Life Outcomes.",
+      "sorttitle": "risk factors associated with chemotherapy induced nausea in the week prior to the next cycle and impact of nausea on quality of life outcomes",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8605836",
+      "issn": "0885-3924",
+      "essn": "1873-6513",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857180"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0885-3924(18)30286-0"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.jpainsymman.2018.05.019"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857180"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857180"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/02/27 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/21 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/22 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of pain and symptom management",
+      "elocationid": "pii: S0885-3924(18)30286-0. doi: 10.1016/j.jpainsymman.2018.05.019",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Singh KP",
+      "vernaculartitle": ""
+    },
+    "29857181": {
+      "uid": "29857181",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "J Pain Symptom Manage",
+      "authors": [
+        {
+          "name": "Balboni TA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Balboni MJ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Balboni MJ",
+      "title": "The Spiritual Event of Serious Illness.",
+      "sorttitle": "spiritual event of serious illness",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8605836",
+      "issn": "0885-3924",
+      "essn": "1873-6513",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857181"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0885-3924(18)30285-9"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.jpainsymman.2018.05.018"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857181"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857181"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/05/21 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/22 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of pain and symptom management",
+      "elocationid": "pii: S0885-3924(18)30285-9. doi: 10.1016/j.jpainsymman.2018.05.018",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Balboni TA",
+      "vernaculartitle": ""
+    },
+    "29857182": {
+      "uid": "29857182",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Biochimie",
+      "authors": [
+        {
+          "name": "Masaoutis C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mihailidou C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tsourouflis G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Theocharis S",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Theocharis S",
+      "title": "Exosomes in lung cancer diagnosis and treatment. From the translating research into future clinical practice.",
+      "sorttitle": "exosomes in lung cancer diagnosis and treatment from the translating research into future clinical practice",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "1264604",
+      "issn": "0300-9084",
+      "essn": "1638-6183",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857182"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0300-9084(18)30145-7"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.biochi.2018.05.014"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857182"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857182"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2017/11/09 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/25 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biochimie",
+      "elocationid": "pii: S0300-9084(18)30145-7. doi: 10.1016/j.biochi.2018.05.014",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Masaoutis C",
+      "vernaculartitle": ""
+    },
+    "29857221": {
+      "uid": "29857221",
+      "pubdate": "2018 May 19",
+      "epubdate": "2018 May 19",
+      "source": "Eur J Med Chem",
+      "authors": [
+        {
+          "name": "Liu J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Qu J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhou W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huang Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jia L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huang X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Qian Z",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Xia J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Yu Y",
+      "title": "Syntenin-targeted peptide blocker inhibits progression of cancer cells.",
+      "sorttitle": "syntenin targeted peptide blocker inhibits progression of cancer cells",
+      "volume": "154",
+      "issue": "",
+      "pages": "354-366",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0420510",
+      "issn": "0223-5234",
+      "essn": "1768-3254",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857221"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0223-5234(18)30419-7"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.ejmech.2018.05.015"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857221"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857221"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/02/14 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/04/22 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/10 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "European journal of medicinal chemistry",
+      "elocationid": "doi: 10.1016/j.ejmech.2018.05.015",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/19 00:00",
+      "sortfirstauthor": "Liu J",
+      "vernaculartitle": ""
+    },
+    "29857223": {
+      "uid": "29857223",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Int J Nurs Stud",
+      "authors": [
+        {
+          "name": "Ullgren H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tsitsi T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Papastavrou E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Charalambous A",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Charalambous A",
+      "title": "How family caregivers of cancer patients manage symptoms at home: A systematic review.",
+      "sorttitle": "how family caregivers of cancer patients manage symptoms at home a systematic review",
+      "volume": "85",
+      "issue": "",
+      "pages": "68-79",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0400675",
+      "issn": "0020-7489",
+      "essn": "1873-491X",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857223"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0020-7489(18)30116-0"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.ijnurstu.2018.05.004"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857223"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857223"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2017/12/18 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/05 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/08 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "International journal of nursing studies",
+      "elocationid": "doi: 10.1016/j.ijnurstu.2018.05.004",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Ullgren H",
+      "vernaculartitle": ""
+    },
+    "29857225": {
+      "uid": "29857225",
+      "pubdate": "2018 Mar 26",
+      "epubdate": "2018 Mar 26",
+      "source": "Clin Imaging",
+      "authors": [
+        {
+          "name": "Park JY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chun KA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shin HJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yi SY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kwon HJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Park HJ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Park HJ",
+      "title": "Breast-specific gamma imaging of invasive breast cancer: Clinicopathologic factors affecting detectability and correlation with mammographic findings.",
+      "sorttitle": "breast specific gamma imaging of invasive breast cancer clinicopathologic factors affecting detectability and correlation with mammographic findings",
+      "volume": "51",
+      "issue": "",
+      "pages": "168-173",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8911831",
+      "issn": "0899-7071",
+      "essn": "1873-4499",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857225"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0899-7071(18)30062-7"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.clinimag.2018.03.013"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857225"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857225"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2017/11/09 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/03/17 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/03/19 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Clinical imaging",
+      "elocationid": "doi: 10.1016/j.clinimag.2018.03.013",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/03/26 00:00",
+      "sortfirstauthor": "Park JY",
+      "vernaculartitle": ""
+    },
+    "29857273": {
+      "uid": "29857273",
+      "pubdate": "2018 May 20",
+      "epubdate": "2018 May 20",
+      "source": "Biomaterials",
+      "authors": [
+        {
+          "name": "Wojnilowicz M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Besford QA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wu YL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Loh XJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Braunger JA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Glab A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cortez-Jugo C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Caruso F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cavalieri F",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Cavalieri F",
+      "title": "Glycogen-nucleic acid constructs for gene silencing in multicellular tumor spheroids.",
+      "sorttitle": "glycogen nucleic acid constructs for gene silencing in multicellular tumor spheroids",
+      "volume": "176",
+      "issue": "",
+      "pages": "34-49",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8100316",
+      "issn": "0142-9612",
+      "essn": "1878-5905",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857273"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0142-9612(18)30359-4"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.biomaterials.2018.05.024"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857273"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857273"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/03/02 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/01 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/14 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biomaterials",
+      "elocationid": "doi: 10.1016/j.biomaterials.2018.05.024",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/20 00:00",
+      "sortfirstauthor": "Wojnilowicz M",
+      "vernaculartitle": ""
+    },
+    "29857279": {
+      "uid": "29857279",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Arch Oral Biol",
+      "authors": [
+        {
+          "name": "Santos PPA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Barroso KMA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nonaka CFW",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pereira Pinto L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Souza LB",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Souza LB",
+      "title": "Immunohistochemical expression of myofibroblasts, TGF-β1 and IFN-γ in oral fibrous lesions.",
+      "sorttitle": "immunohistochemical expression of myofibroblasts tgf 1 and ifn in oral fibrous lesions",
+      "volume": "93",
+      "issue": "",
+      "pages": "80-86",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0116711",
+      "issn": "0003-9969",
+      "essn": "1879-1506",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857279"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0003-9969(18)30182-1"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.archoralbio.2018.05.012"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857279"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857279"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/01/16 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/12 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/14 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Archives of oral biology",
+      "elocationid": "doi: 10.1016/j.archoralbio.2018.05.012",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Santos PPA",
+      "vernaculartitle": ""
+    },
+    "29857282": {
+      "uid": "29857282",
+      "pubdate": "2018 May 22",
+      "epubdate": "2018 May 22",
+      "source": "Breast",
+      "authors": [
+        {
+          "name": "Ager B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jansen J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Porter D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Phillips KA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Glassey R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "CPM DA Advisory Group.",
+          "authtype": "CollectiveName",
+          "clusterid": ""
+        },
+        {
+          "name": "Butow P",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Butow P",
+      "title": "Development and pilot testing of a Decision Aid (DA) for women with early-stage breast cancer considering contralateral prophylactic mastectomy.",
+      "sorttitle": "development and pilot testing of a decision aid da for women with early stage breast cancer considering contralateral prophylactic mastectomy",
+      "volume": "40",
+      "issue": "",
+      "pages": "156-164",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9213011",
+      "issn": "0960-9776",
+      "essn": "1532-3080",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857282"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0960-9776(18)30101-2"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.breast.2018.05.009"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857282"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857282"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/01/22 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/04/23 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/18 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Breast (Edinburgh, Scotland)",
+      "elocationid": "doi: 10.1016/j.breast.2018.05.009",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/22 00:00",
+      "sortfirstauthor": "Ager B",
+      "vernaculartitle": ""
+    },
+    "29857296": {
+      "uid": "29857296",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Biomed Pharmacother",
+      "authors": [
+        {
+          "name": "Shen Q",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jiang Y",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Jiang Y",
+      "title": "LncRNA NNT-AS1 promotes the proliferation, and invasion of lung cancer cells via regulating miR-129-5p expression.",
+      "sorttitle": "lncrna nnt as1 promotes the proliferation and invasion of lung cancer cells via regulating mir 129 5p expression",
+      "volume": "105",
+      "issue": "",
+      "pages": "176-181",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8213295",
+      "issn": "0753-3322",
+      "essn": "1950-6007",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857296"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0753-3322(18)32764-1"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.biopha.2018.05.123"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857296"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857296"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/04/24 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/23 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/23 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biomedicine &amp; pharmacotherapy = Biomedecine &amp; pharmacotherapie",
+      "elocationid": "doi: 10.1016/j.biopha.2018.05.123",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Shen Q",
+      "vernaculartitle": ""
+    },
+    "29857299": {
+      "uid": "29857299",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Biomed Pharmacother",
+      "authors": [
+        {
+          "name": "Dong N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhao T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bai X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yang B",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Yang B",
+      "title": "Apoptosis-inducing effects and growth inhibitory of a novel chalcone, in human hepatic cancer cells and lung cancer cells.",
+      "sorttitle": "apoptosis inducing effects and growth inhibitory of a novel chalcone in human hepatic cancer cells and lung cancer cells",
+      "volume": "105",
+      "issue": "",
+      "pages": "195-203",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8213295",
+      "issn": "0753-3322",
+      "essn": "1950-6007",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857299"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0753-3322(18)30573-0"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.biopha.2018.05.126"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857299"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857299"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/01/25 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/24 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/24 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biomedicine &amp; pharmacotherapy = Biomedecine &amp; pharmacotherapie",
+      "elocationid": "doi: 10.1016/j.biopha.2018.05.126",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Dong N",
+      "vernaculartitle": ""
+    },
+    "29857300": {
+      "uid": "29857300",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Biomed Pharmacother",
+      "authors": [
+        {
+          "name": "Zhang Q",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hu H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jin J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shen K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li Z",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhan P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fan H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lv T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Song Y",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Song Y",
+      "title": "RNA sequencing enables systematic identification of platelet transcriptomic alterations in NSCLC patients.",
+      "sorttitle": "rna sequencing enables systematic identification of platelet transcriptomic alterations in nsclc patients",
+      "volume": "105",
+      "issue": "",
+      "pages": "204-214",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8213295",
+      "issn": "0753-3322",
+      "essn": "1950-6007",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857300"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0753-3322(18)30319-6"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.biopha.2018.05.074"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857300"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857300"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/01/19 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/04/24 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/15 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biomedicine &amp; pharmacotherapy = Biomedecine &amp; pharmacotherapie",
+      "elocationid": "doi: 10.1016/j.biopha.2018.05.074",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Zhang Q",
+      "vernaculartitle": ""
+    },
+    "29857301": {
+      "uid": "29857301",
+      "pubdate": "2018 May 29",
+      "epubdate": "2018 May 29",
+      "source": "Biomed Pharmacother",
+      "authors": [
+        {
+          "name": "Haggag YA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Osman MA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "El-Gizawy SA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Goda AE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shamloula MM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Faheem AM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "McCarron PA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "McCarron PA",
+      "title": "Polymeric nano-encapsulation of 5-fluorouracil enhances anti-cancer activity and ameliorates side effects in solid Ehrlich Carcinoma-bearing mice.",
+      "sorttitle": "polymeric nano encapsulation of 5 fluorouracil enhances anti cancer activity and ameliorates side effects in solid ehrlich carcinoma bearing mice",
+      "volume": "105",
+      "issue": "",
+      "pages": "215-224",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8213295",
+      "issn": "0753-3322",
+      "essn": "1950-6007",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29857301"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0753-3322(18)32266-2"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.biopha.2018.05.124"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29857301"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29857301"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/04/04 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/05/23 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/05/23 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/02 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/02 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biomedicine &amp; pharmacotherapy = Biomedecine &amp; pharmacotherapie",
+      "elocationid": "doi: 10.1016/j.biopha.2018.05.124",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/29 00:00",
+      "sortfirstauthor": "Haggag YA",
+      "vernaculartitle": ""
+    },
+    "uids": [
+      "29857301",
+      "29857300",
+      "29857299",
+      "29857296",
+      "29857282",
+      "29857279",
+      "29857273",
+      "29857225",
+      "29857223",
+      "29857221",
+      "29857182",
+      "29857181",
+      "29857180",
+      "29857179",
+      "29857173",
+      "29857164",
+      "29857147",
+      "29857135",
+      "29857128",
+      "29857127"
+    ]
+  }
+}
