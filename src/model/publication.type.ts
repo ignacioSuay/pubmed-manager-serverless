@@ -7,7 +7,6 @@ export interface Publication {
     uid: string,
     title: string,
     authors: Author[]
-
 }
 
 export interface Response {
