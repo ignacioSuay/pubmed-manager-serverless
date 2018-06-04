@@ -9,3 +9,8 @@ export interface Publication {
     authors: Author[]
 
 }
+
+export interface Response {
+    statusCode: number;
+    body: string;
+}
