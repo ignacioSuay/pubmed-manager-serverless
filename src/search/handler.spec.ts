@@ -3,8 +3,10 @@ import {expect} from 'chai';
 import axios from "axios";
 var MockAdapter = require('axios-mock-adapter');
 import 'mocha';
+import {Publication} from "../model/publication.type";
 const  searchResponse = require('../../test/resources/search.test.response.json');
 const  summaryResponse = require('../../test/resources/summary.response.json');
+const  event = require('../../test/resources/event.json');
 
 
 describe('search publications', () => {
@@ -17,13 +19,15 @@ describe('search publications', () => {
         mock.onGet(new RegExp('esummary')).reply(200, summaryResponse);
 
         //When
-        const result = await search(null, null);
+        const result = await search(event);
 
         //Then
         console.log("resultado " + JSON.stringify(result));
         expect(result).to.not.be.null;
         expect(result.statusCode).to.equal(200);
-        expect(result.body)
+
+        const resPubs = JSON.parse(result.body) as Publication[]
+        expect(resPubs.length).to.equal(20);
 
     });
 
