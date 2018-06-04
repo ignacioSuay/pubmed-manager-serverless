@@ -1,13 +1,41 @@
 {
-  "method": "GET",
-  "headers": {
-    "host": "localhost:8000",
-    "user-agent": "curl/7.49.1",
-    "accept": "*/*"
+  "resource": "/search",
+  "path": "/search",
+  "httpMethod": "GET",
+  "headers": null,
+  "queryStringParameters": {
+    "term": "hola",
+    "startPage": 1,
+    "endPage": 20
   },
-  "body": {},
-  "path": {},
-  "query": {
-    "foo": "bar"
-  }
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "path": "/search",
+    "accountId": "963419467435",
+    "resourceId": "0pkdge",
+    "stage": "test-invoke-stage",
+    "requestId": "d8abad8a-67f8-11e8-a1fa-dbef6b0e297b",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "cognitoIdentityId": null,
+      "apiKey": "test-invoke-api-key",
+      "cognitoAuthenticationType": null,
+      "userArn": "arn:aws:iam::963419467435:root",
+      "apiKeyId": "test-invoke-api-key-id",
+      "userAgent": "aws-internal/3",
+      "accountId": "963419467435",
+      "caller": "963419467435",
+      "sourceIp": "test-invoke-source-ip",
+      "accessKey": "ASIAJNT52U3CSKA6AVFQ",
+      "cognitoAuthenticationProvider": null,
+      "user": "963419467435"
+    },
+    "resourcePath": "/search",
+    "httpMethod": "GET",
+    "extendedRequestId": "H9YXvFyejoEFqdA=",
+    "apiId": "g3ws5fq4m5"
+  },
+  "body": null,
+  "isBase64Encoded": false
 }
