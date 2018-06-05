@@ -33,7 +33,21 @@ export interface PubMedSummaryItem {
     epubdate: string,
     source: string,
     title: string,
-    authors: Author[]
+    authors: Author[],
+    lastauthor: string,
+    volumen: string,
+    issue: string,
+    pages: string,
+    lang: string[],
+    issn: string,
+    pubtype: string[],
+    articleids: ArticleId[]
+}
+
+export interface ArticleId {
+    idtype: string,
+    idtypen: number,
+    value: string
 }
 
 interface Author {
