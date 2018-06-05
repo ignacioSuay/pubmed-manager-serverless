@@ -1,5 +1,5 @@
 import axios from "axios";
-import {PubMedSearch, PubMedSummary, PubMedSummaryItem} from "../model/pubmed/pubmed.types";
+import {PubMedSearch, PubMedSummary, PubMedSummaryItem, ArticleId} from "../model/pubmed/pubmed.types";
 import {Publication, Author, Response} from "../model/publication.type";
 
 export const search = async (event) => {
@@ -28,15 +28,9 @@ async function getPubMedSummary(pubMedsearch, event) {
 
 function buildPublications(pubMedsummary) {
     return Object.keys(pubMedsummary.result)
-        .map((key) => {
-            return pubMedsummary.result[key]
-        })
-        .filter((pubMedItem) => {
-            return pubMedItem.uid !== undefined
-        })
-        .map((pubMedItem) => {
-            return transformPublication(pubMedItem);
-        });
+        .map((key) => pubMedsummary.result[key])
+        .filter((pubMedItem) => pubMedItem.uid !== undefined)
+        .map((pubMedItem) => transformPublication(pubMedItem));
 }
 
 function transformPublication(pub: PubMedSummaryItem): Publication {
@@ -48,8 +42,26 @@ function transformPublication(pub: PubMedSummaryItem): Publication {
     return {
         uid: pub.uid,
         title: pub.title,
-        authors: authors
+        pubdate: pub.pubdate,
+        epubdate: pub.epubdate,
+        source: pub.source,
+        authors: authors,
+        lastauthor: pub.lastauthor,
+        volumen: pub.volumen,
+        issue: pub.issue,
+        pages: pub.pages,
+        lang: pub.lang,
+        issn: pub.issn,
+        pubtype: pub.pubtype,
+        pubmedId: getArticleId(pub.articleids, "pubmed"),
+        doi: getArticleId(pub.articleids, "doi"),
     }
+}
+
+function getArticleId(articleIds: ArticleId[], type: string): string {
+
+    const articleId = articleIds.find((articleId) => articleId.idtype === type);
+    return articleId.value;
 }
 
 function buildResponse(status, body): Response {
