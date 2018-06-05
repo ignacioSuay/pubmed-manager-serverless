@@ -6,7 +6,19 @@ export interface Author {
 export interface Publication {
     uid: string,
     title: string,
-    authors: Author[]
+    pubdate: string
+    epubdate: string,
+    source: string,
+    authors: Author[],
+    lastauthor: string,
+    volumen: string,
+    issue: string,
+    pages: string,
+    lang: string[],
+    issn: string,
+    pubtype: string[],
+    pubmedId: string,
+    doi: string
 }
 
 export interface Response {
