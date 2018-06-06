@@ -16,4 +16,4 @@ functions:
     events:
       - http:
           method: get
-          path: search
+          path: publications
