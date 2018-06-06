@@ -55,6 +55,7 @@ function transformPublication(pub: PubMedSummaryItem): Publication {
         pubtype: pub.pubtype,
         pubmedId: getArticleId(pub.articleids, "pubmed"),
         doi: getArticleId(pub.articleids, "doi"),
+        abstract: ""
     }
 }
 
