@@ -18,7 +18,8 @@ export interface Publication {
     issn: string,
     pubtype: string[],
     pubmedId: string,
-    doi: string
+    doi: string,
+    abstract: string
 }
 
 export interface Response {
