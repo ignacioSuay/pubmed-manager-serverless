@@ -1,20 +1,19 @@
 import {search} from './handler'
 import {expect} from 'chai';
 import axios from "axios";
-var MockAdapter = require('axios-mock-adapter');
 import 'mocha';
 import {Publication} from "../model/publication.type";
 const  searchResponse = require('../../test/resources/search.test.response.json');
 const  summaryResponse = require('../../test/resources/summary.response.json');
 const  event = require('../../test/resources/event.json');
-
+const MockAdapter = require('axios-mock-adapter');
 
 describe('search publications', () => {
 
     it('should return 20 publications', async function () {
 
         //Given
-        var mock = new MockAdapter(axios);
+        const mock = new MockAdapter(axios);
         mock.onGet(new RegExp('esearch')).reply(200, searchResponse);
         mock.onGet(new RegExp('esummary')).reply(200, summaryResponse);
 
@@ -25,7 +24,7 @@ describe('search publications', () => {
         expect(result).to.not.be.null;
         expect(result.statusCode).to.equal(200);
 
-        const resPubs = JSON.parse(result.body) as Publication[]
+        const resPubs = JSON.parse(result.body) as Publication[];
         expect(resPubs.length).to.equal(20);
 
         const lastPub = resPubs[19];

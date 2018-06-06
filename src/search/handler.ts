@@ -22,7 +22,7 @@ async function getPubMedSearch(event) {
 }
 
 async function getPubMedSummary(pubMedsearch, event) {
-    const pubMedSummaryPromise = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&query_key=${pubMedsearch.esearchresult.querykey}&WebEnv=${pubMedsearch.esearchresult.webenv}&version=2.0&retmode=JSON&retstart=${event.queryStringParameters.startPage}&retmax=${event.queryStringParameters.endPage}`)
+    const pubMedSummaryPromise = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&query_key=${pubMedsearch.esearchresult.querykey}&WebEnv=${pubMedsearch.esearchresult.webenv}&version=2.0&retmode=JSON&retstart=${event.queryStringParameters.startPage}&retmax=${event.queryStringParameters.endPage}`);
     return pubMedSummaryPromise.data as PubMedSummary;
 }
 
