@@ -8,7 +8,9 @@
     "startPage": 1,
     "endPage": 20
   },
-  "pathParameters": null,
+  "pathParameters": {
+    "id": "29869029"
+  },
   "stageVariables": null,
   "requestContext": {
     "path": "/search",
