@@ -1,0 +1,150 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "29869029": {
+      "uid": "29869029",
+      "pubdate": "2018 Jun 5",
+      "epubdate": "2018 Jun 5",
+      "source": "Med Mol Morphol",
+      "authors": [
+        {
+          "name": "Nekooki-Machida Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nakakura T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nishijima Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tanaka H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Arisawa K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kiuchi Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Miyashita T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hagiwara H",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hagiwara H",
+      "title": "Dynamic localization of α-tubulin acetyltransferase ATAT1 through the cell cycle in human fibroblastic KD cells.",
+      "sorttitle": "dynamic localization of tubulin acetyltransferase atat1 through the cell cycle in human fibroblastic kd cells",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101239023",
+      "issn": "1860-1480",
+      "essn": "1860-1499",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29869029"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1007/s00795-018-0195-x"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1007/s00795-018-0195-x"
+        },
+        {
+          "idtype": "rid",
+          "idtypen": 8,
+          "value": "29869029"
+        },
+        {
+          "idtype": "eid",
+          "idtypen": 8,
+          "value": "29869029"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/03/13 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/06/01 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/06 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/06 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/06 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Medical molecular morphology",
+      "elocationid": "doi: 10.1007/s00795-018-0195-x",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/06/05 00:00",
+      "sortfirstauthor": "Nekooki-Machida Y",
+      "vernaculartitle": ""
+    },
+    "uids": [
+      "29869029"
+    ]
+  }
+}
