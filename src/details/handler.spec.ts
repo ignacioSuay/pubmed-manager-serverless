@@ -3,7 +3,7 @@ import {expect} from 'chai';
 import axios from "axios";
 import 'mocha';
 import {Publication} from "../model/publication.type";
-const  summaryResponse = require('../../test/resources/summary.response.json');
+const  summaryResponse = require('../../test/resources/summaryById.response.json');
 const  event = require('../../test/resources/event.json');
 const MockAdapter = require('axios-mock-adapter');
 
@@ -25,7 +25,7 @@ describe('Get publication details', () => {
         expect(result.statusCode).to.equal(200);
 
         const pub = JSON.parse(result.body) as Publication;
-        expect(pub.title).to.equal("Medical molecular morphology");
+        expect(pub.title).to.equal("Dynamic localization of α-tubulin acetyltransferase ATAT1 through the cell cycle in human fibroblastic KD cells.");
         expect(pub.abstract).to.equal("Acetylation of α-tubulin is a well-studied posttranscriptional modification, which is mostly catalyzed by α-tubulin N-acetyltransferase (ATAT1). ATAT1 possibly affects various cellular functions related with microtubules, such as intracellular transport, cell motility, cilia formation, and neuronal signaling. Here, we analyzed the subcellular localization of immunolabeled ATAT1 in human fibroblast KD cells through the cell cycle using confocal laser scanning microscopy. ATAT1 dramatically changed its localization through the cell cycle, depending on the mitotic phase. In interphase, immunolabeled ATAT1 was observed in centrioles, nuclei, and basal bodies if the cells projected primary cilia. ATAT1 was intensely detected as clusters in the nuclei in the G1-G2 phase. In telophase, ATAT1 colocalized with chromatids and spindle poles, and ultimately migrated to the daughter nucleus, newly synthesized centrioles, and midbody. The nucleolus is a core region of ribosomal RNA transcription, and the midbody is associated with severing and depolymerizing of microtubules in the stembody. The specific distributions of ATAT1 through the cell cycle suggest multiple functions of ATAT1, which could include acetylation of microtubules, RNA transcription activity, severing microtubules, and completion of cytokinesis.");
     });
 
