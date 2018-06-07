@@ -36,13 +36,13 @@ async function transformPublication(pub: PubMedSummaryItem): Promise<Publication
     });
 
     const fetch = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=${pub.uid}&rettype=Abstract`);
-    var result1 = convert.xml2js(fetch.data, {compact: true});
+    var fetchResult = convert.xml2js(fetch.data, {compact: true});
 
-    console.log(JSON.stringify(result1));
+    console.log(JSON.stringify(fetchResult));
 
     let abstractText;
-    if(result1.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text) {
-        abstractText  = result1.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text;
+    if(fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text) {
+        abstractText  = fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text;
     }
     return {
         uid: pub.uid,
