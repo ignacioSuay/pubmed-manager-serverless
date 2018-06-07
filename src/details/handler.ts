@@ -11,9 +11,9 @@ export const getPublicationDetails = async (event) => {
     }
 
     const pubMedSummary = await getPubMedSummary(event);
-    const pubs = buildPublications(pubMedSummary);
+    const pub = await buildPublications(pubMedSummary);
 
-    return buildResponse(200, JSON.stringify(pubs));
+    return buildResponse(200, JSON.stringify(pub));
 };
 
 async function getPubMedSummary(event) {
@@ -36,11 +36,14 @@ async function transformPublication(pub: PubMedSummaryItem): Promise<Publication
     });
 
     const fetch = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=${pub.uid}&rettype=Abstract`);
-    console.log(fetch);
-    var result1 = convert.xml2json(fetch, {compact: false, spaces: 4});
-    console.log("This is the after fecth: "+ result1);
-    console.log("This is the stringfy: " + JSON.stringify(result1));
+    var result1 = convert.xml2js(fetch.data, {compact: true});
 
+    console.log(JSON.stringify(result1));
+
+    let abstractText;
+    if(result1.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text) {
+        abstractText  = result1.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text;
+    }
     return {
         uid: pub.uid,
         title: pub.title,
@@ -57,7 +60,7 @@ async function transformPublication(pub: PubMedSummaryItem): Promise<Publication
         pubtype: pub.pubtype,
         pubmedId: getArticleId(pub.articleids, "pubmed"),
         doi: getArticleId(pub.articleids, "doi"),
-        abstract: ""
+        abstract: abstractText
     }
 }
 
