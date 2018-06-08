@@ -1,0 +1,453 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0"
+    }
+  },
+  "_doctype": "PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2018//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_180101.dtd\"",
+  "PubmedArticleSet": {
+    "PubmedArticle": {
+      "MedlineCitation": {
+        "_attributes": {
+          "Status": "Publisher",
+          "Owner": "NLM"
+        },
+        "PMID": {
+          "_attributes": {
+            "Version": "1"
+          },
+          "_text": "29869029"
+        },
+        "DateRevised": {
+          "Year": {
+            "_text": "2018"
+          },
+          "Month": {
+            "_text": "06"
+          },
+          "Day": {
+            "_text": "05"
+          }
+        },
+        "Article": {
+          "_attributes": {
+            "PubModel": "Print-Electronic"
+          },
+          "Journal": {
+            "ISSN": {
+              "_attributes": {
+                "IssnType": "Electronic"
+              },
+              "_text": "1860-1499"
+            },
+            "JournalIssue": {
+              "_attributes": {
+                "CitedMedium": "Internet"
+              },
+              "PubDate": {
+                "Year": {
+                  "_text": "2018"
+                },
+                "Month": {
+                  "_text": "Jun"
+                },
+                "Day": {
+                  "_text": "05"
+                }
+              }
+            },
+            "Title": {
+              "_text": "Medical molecular morphology"
+            },
+            "ISOAbbreviation": {
+              "_text": "Med Mol Morphol"
+            }
+          },
+          "ArticleTitle": {
+            "_text": "Dynamic localization of α-tubulin acetyltransferase ATAT1 through the cell cycle in human fibroblastic KD cells."
+          },
+          "ELocationID": {
+            "_attributes": {
+              "EIdType": "doi",
+              "ValidYN": "Y"
+            },
+            "_text": "10.1007/s00795-018-0195-x"
+          },
+          "Abstract": {
+            "AbstractText": {
+              "_text": "Acetylation of α-tubulin is a well-studied posttranscriptional modification, which is mostly catalyzed by α-tubulin N-acetyltransferase (ATAT1). ATAT1 possibly affects various cellular functions related with microtubules, such as intracellular transport, cell motility, cilia formation, and neuronal signaling. Here, we analyzed the subcellular localization of immunolabeled ATAT1 in human fibroblast KD cells through the cell cycle using confocal laser scanning microscopy. ATAT1 dramatically changed its localization through the cell cycle, depending on the mitotic phase. In interphase, immunolabeled ATAT1 was observed in centrioles, nuclei, and basal bodies if the cells projected primary cilia. ATAT1 was intensely detected as clusters in the nuclei in the G1-G2 phase. In telophase, ATAT1 colocalized with chromatids and spindle poles, and ultimately migrated to the daughter nucleus, newly synthesized centrioles, and midbody. The nucleolus is a core region of ribosomal RNA transcription, and the midbody is associated with severing and depolymerizing of microtubules in the stembody. The specific distributions of ATAT1 through the cell cycle suggest multiple functions of ATAT1, which could include acetylation of microtubules, RNA transcription activity, severing microtubules, and completion of cytokinesis."
+            }
+          },
+          "AuthorList": {
+            "_attributes": {
+              "CompleteYN": "Y"
+            },
+            "Author": [
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Nekooki-Machida"
+                },
+                "ForeName": {
+                  "_text": "Yoko"
+                },
+                "Initials": {
+                  "_text": "Y"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan. y-nekooki@med.teikyo-u.ac.jp."
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Nakakura"
+                },
+                "ForeName": {
+                  "_text": "Takashi"
+                },
+                "Initials": {
+                  "_text": "T"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan."
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Nishijima"
+                },
+                "ForeName": {
+                  "_text": "Yoshimi"
+                },
+                "Initials": {
+                  "_text": "Y"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan."
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Tanaka"
+                },
+                "ForeName": {
+                  "_text": "Hideyuki"
+                },
+                "Initials": {
+                  "_text": "H"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan."
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Arisawa"
+                },
+                "ForeName": {
+                  "_text": "Kenjiro"
+                },
+                "Initials": {
+                  "_text": "K"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan."
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Kiuchi"
+                },
+                "ForeName": {
+                  "_text": "Yoshiko"
+                },
+                "Initials": {
+                  "_text": "Y"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan."
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Miyashita"
+                },
+                "ForeName": {
+                  "_text": "Toshio"
+                },
+                "Initials": {
+                  "_text": "T"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan."
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "ValidYN": "Y"
+                },
+                "LastName": {
+                  "_text": "Hagiwara"
+                },
+                "ForeName": {
+                  "_text": "Haruo"
+                },
+                "Initials": {
+                  "_text": "H"
+                },
+                "AffiliationInfo": {
+                  "Affiliation": {
+                    "_text": "Department of Anatomy, Graduate School of Medicine, Teikyo University, 2-11-1 Kaga Itabashi-Ku, Tokyo, 173-8605, Japan. h.hagiwara@med.teikyo-u.ac.jp."
+                  }
+                }
+              }
+            ]
+          },
+          "Language": {
+            "_text": "eng"
+          },
+          "GrantList": {
+            "_attributes": {
+              "CompleteYN": "Y"
+            },
+            "Grant": {
+              "GrantID": {
+                "_text": "17K08523"
+              },
+              "Agency": {
+                "_text": "Ministry of Education, Culture, Sports, Science and Technology"
+              },
+              "Country": {}
+            }
+          },
+          "PublicationTypeList": {
+            "PublicationType": {
+              "_attributes": {
+                "UI": "D016428"
+              },
+              "_text": "Journal Article"
+            }
+          },
+          "ArticleDate": {
+            "_attributes": {
+              "DateType": "Electronic"
+            },
+            "Year": {
+              "_text": "2018"
+            },
+            "Month": {
+              "_text": "06"
+            },
+            "Day": {
+              "_text": "05"
+            }
+          }
+        },
+        "MedlineJournalInfo": {
+          "Country": {
+            "_text": "Japan"
+          },
+          "MedlineTA": {
+            "_text": "Med Mol Morphol"
+          },
+          "NlmUniqueID": {
+            "_text": "101239023"
+          },
+          "ISSNLinking": {
+            "_text": "1860-1499"
+          }
+        },
+        "KeywordList": {
+          "_attributes": {
+            "Owner": "NOTNLM"
+          },
+          "Keyword": [
+            {
+              "_attributes": {
+                "MajorTopicYN": "N"
+              },
+              "_text": "ATAT1"
+            },
+            {
+              "_attributes": {
+                "MajorTopicYN": "N"
+              },
+              "_text": "Acetylation"
+            },
+            {
+              "_attributes": {
+                "MajorTopicYN": "N"
+              },
+              "_text": "Cell cycle"
+            },
+            {
+              "_attributes": {
+                "MajorTopicYN": "N"
+              },
+              "_text": "KD cell"
+            },
+            {
+              "_attributes": {
+                "MajorTopicYN": "N"
+              },
+              "_text": "α-Tubulin"
+            }
+          ]
+        }
+      },
+      "PubmedData": {
+        "History": {
+          "PubMedPubDate": [
+            {
+              "_attributes": {
+                "PubStatus": "received"
+              },
+              "Year": {
+                "_text": "2018"
+              },
+              "Month": {
+                "_text": "03"
+              },
+              "Day": {
+                "_text": "13"
+              }
+            },
+            {
+              "_attributes": {
+                "PubStatus": "accepted"
+              },
+              "Year": {
+                "_text": "2018"
+              },
+              "Month": {
+                "_text": "06"
+              },
+              "Day": {
+                "_text": "01"
+              }
+            },
+            {
+              "_attributes": {
+                "PubStatus": "entrez"
+              },
+              "Year": {
+                "_text": "2018"
+              },
+              "Month": {
+                "_text": "6"
+              },
+              "Day": {
+                "_text": "6"
+              },
+              "Hour": {
+                "_text": "6"
+              },
+              "Minute": {
+                "_text": "0"
+              }
+            },
+            {
+              "_attributes": {
+                "PubStatus": "pubmed"
+              },
+              "Year": {
+                "_text": "2018"
+              },
+              "Month": {
+                "_text": "6"
+              },
+              "Day": {
+                "_text": "6"
+              },
+              "Hour": {
+                "_text": "6"
+              },
+              "Minute": {
+                "_text": "0"
+              }
+            },
+            {
+              "_attributes": {
+                "PubStatus": "medline"
+              },
+              "Year": {
+                "_text": "2018"
+              },
+              "Month": {
+                "_text": "6"
+              },
+              "Day": {
+                "_text": "6"
+              },
+              "Hour": {
+                "_text": "6"
+              },
+              "Minute": {
+                "_text": "0"
+              }
+            }
+          ]
+        },
+        "PublicationStatus": {
+          "_text": "aheadofprint"
+        },
+        "ArticleIdList": {
+          "ArticleId": [
+            {
+              "_attributes": {
+                "IdType": "pubmed"
+              },
+              "_text": "29869029"
+            },
+            {
+              "_attributes": {
+                "IdType": "doi"
+              },
+              "_text": "10.1007/s00795-018-0195-x"
+            },
+            {
+              "_attributes": {
+                "IdType": "pii"
+              },
+              "_text": "10.1007/s00795-018-0195-x"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

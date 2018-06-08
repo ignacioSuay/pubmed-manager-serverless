@@ -6,8 +6,8 @@ const convert = require('xml-js');
 export const getPublicationDetails = async (event) => {
     console.log("running get details");
 
-    if (!event.queryStringParameters.term || !event.queryStringParameters.startPage || !event.queryStringParameters.endPage) {
-        return buildResponse(500, "Term or startPage or endPage cannot be empty");
+    if (!event.pathParameters.id) {
+        return buildResponse(500, "Publication id is not present");
     }
 
     const pubMedSummary = await getPubMedSummary(event);
@@ -36,7 +36,7 @@ async function transformPublication(pub: PubMedSummaryItem): Promise<Publication
     });
 
     const fetch = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=${pub.uid}&rettype=Abstract`);
-    var fetchResult = convert.xml2js(fetch.data, {compact: true});
+    const fetchResult = convert.xml2js(fetch.data, {compact: true});
 
     console.log(JSON.stringify(fetchResult));
 
