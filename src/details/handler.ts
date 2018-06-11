@@ -1,6 +1,7 @@
 import axios from "axios";
-import {PubMedSearch, PubMedSummary, PubMedSummaryItem, ArticleId} from "../model/pubmed/pubmed.types";
-import {Publication, Author, Response} from "../model/publication.type";
+import {ArticleId, PubMedSummary, PubMedSummaryItem} from "../model/pubmed/pubmed.types";
+import {Author, Publication, Response} from "../model/publication.type";
+
 const convert = require('xml-js');
 
 export const getPublicationDetails = async (event) => {
@@ -22,7 +23,7 @@ async function getPubMedSummary(event) {
 }
 
 function buildPublications(pubMedsummary) {
-    const pubMedItem =  Object.keys(pubMedsummary.result)
+    const pubMedItem = Object.keys(pubMedsummary.result)
         .map((key) => pubMedsummary.result[key])
         .find((pubMedItem) => pubMedItem.uid !== undefined);
 
@@ -41,8 +42,8 @@ async function transformPublication(pub: PubMedSummaryItem): Promise<Publication
     console.log(JSON.stringify(fetchResult));
 
     let abstractText;
-    if(fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text) {
-        abstractText  = fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text;
+    if (fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text) {
+        abstractText = fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text;
     }
     return {
         uid: pub.uid,
@@ -67,7 +68,11 @@ async function transformPublication(pub: PubMedSummaryItem): Promise<Publication
 function getArticleId(articleIds: ArticleId[], type: string): string {
 
     const articleId = articleIds.find((articleId) => articleId.idtype === type);
-    return articleId.value;
+    if (articleId) {
+        return articleId.value;
+    }
+    return "";
+
 }
 
 function buildResponse(status, body): Response {

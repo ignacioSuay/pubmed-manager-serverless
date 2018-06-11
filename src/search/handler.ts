@@ -62,7 +62,10 @@ function transformPublication(pub: PubMedSummaryItem): Publication {
 function getArticleId(articleIds: ArticleId[], type: string): string {
 
     const articleId = articleIds.find((articleId) => articleId.idtype === type);
-    return articleId.value;
+    if (articleId) {
+        return articleId.value;
+    }
+    return "";
 }
 
 function buildResponse(status, body): Response {
