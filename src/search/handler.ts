@@ -1,6 +1,6 @@
 import axios from "axios";
-import {PubMedSearch, PubMedSummary, PubMedSummaryItem, ArticleId} from "../model/pubmed/pubmed.types";
-import {Publication, Author, Response} from "../model/publication.type";
+import {ArticleId, PubMedSearch, PubMedSummary, PubMedSummaryItem} from "../model/pubmed/pubmed.types";
+import {Author, Publication, Response} from "../model/publication.type";
 
 export const search = async (event) => {
     console.log("running search");
@@ -54,8 +54,7 @@ function transformPublication(pub: PubMedSummaryItem): Publication {
         issn: pub.issn,
         pubtype: pub.pubtype,
         pubmedId: getArticleId(pub.articleids, "pubmed"),
-        doi: getArticleId(pub.articleids, "doi"),
-        abstract: ""
+        doi: getArticleId(pub.articleids, "doi")
     }
 }
 
