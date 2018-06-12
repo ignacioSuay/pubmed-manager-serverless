@@ -27,6 +27,10 @@ async function getPubMedSummary(pubMedsearch, event) {
 }
 
 function buildPublications(pubMedsummary) {
+    if(!pubMedsummary.result){
+        return [];
+    }
+
     return Object.keys(pubMedsummary.result)
         .map((key) => pubMedsummary.result[key])
         .filter((pubMedItem) => pubMedItem.uid !== undefined)
