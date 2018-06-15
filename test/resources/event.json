@@ -4,7 +4,7 @@
   "httpMethod": "GET",
   "headers": null,
   "queryStringParameters": {
-    "term": "hola",
+    "term": "sports",
     "startPage": 1,
     "endPage": 20
   },

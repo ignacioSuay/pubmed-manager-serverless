@@ -11,9 +11,13 @@ export const search = async (event) => {
 
     const pubMedsearch = await getPubMedSearch(event);
     const pubMedSummary = await getPubMedSummary(pubMedsearch, event);
+    console.log(JSON.stringify(pubMedSummary));
+
     const pubs = buildPublications(pubMedSummary);
 
-    return buildResponse(200, JSON.stringify(pubs));
+    const response = buildResponse(200, JSON.stringify(pubs));
+    console.log(response);
+    return response;
 };
 
 async function getPubMedSearch(event) {
@@ -21,8 +25,15 @@ async function getPubMedSearch(event) {
     return pubMedsearchPromise.data as PubMedSearch;
 }
 
-async function getPubMedSummary(pubMedsearch, event) {
-    const pubMedSummaryPromise = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&query_key=${pubMedsearch.esearchresult.querykey}&WebEnv=${pubMedsearch.esearchresult.webenv}&version=2.0&retmode=JSON&retstart=${event.queryStringParameters.startPage}&retmax=${event.queryStringParameters.endPage}`);
+async function getPubMedSummary(pubMedsearch : PubMedSearch, event) {
+    console.log(JSON.stringify(pubMedsearch));
+    let pubMedSummaryPromise;
+    if(pubMedsearch.esearchresult && pubMedsearch.esearchresult.idlist.length === 1){
+        pubMedSummaryPromise = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&query_key=${pubMedsearch.esearchresult.querykey}&WebEnv=${pubMedsearch.esearchresult.webenv}&version=2.0&retmode=JSON`);
+
+    }else {
+        pubMedSummaryPromise = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&query_key=${pubMedsearch.esearchresult.querykey}&WebEnv=${pubMedsearch.esearchresult.webenv}&version=2.0&retmode=JSON&retstart=${event.queryStringParameters.startPage}&retmax=${event.queryStringParameters.endPage}`);
+    }
     return pubMedSummaryPromise.data as PubMedSummary;
 }
 
