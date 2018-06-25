@@ -2,7 +2,7 @@ import {search} from './handler'
 import {expect} from 'chai';
 import axios from "axios";
 import 'mocha';
-import {Publication} from "../model/publication.type";
+import {Publication, PublicationGroup} from "../model/publication.type";
 const  searchResponse = require('../../test/resources/search.test.response.json');
 const  summaryResponse = require('../../test/resources/summary.response.json');
 const  event = require('../../test/resources/event.json');
@@ -24,7 +24,7 @@ describe('search publications', () => {
         expect(result).to.not.be.null;
         expect(result.statusCode).to.equal(200);
 
-        const resPubs = JSON.parse(result.body) as Publication[];
+        const resPubs = JSON.parse(result.body).publications as Publication[];
         expect(resPubs.length).to.equal(20);
 
         const lastPub = resPubs[19];
@@ -52,6 +52,29 @@ describe('search publications', () => {
         expect(lastPub.authors[6].name).to.equal("McCarron PA");
         expect(lastPub.authors[6].authType).to.equal("Author");
         expect(lastPub.authors.length).to.equal(7);
+
+    });
+
+    it('should return the expected count, webenv and queryKey data', async function () {
+
+        //Given
+        const mock = new MockAdapter(axios);
+        mock.onGet(new RegExp('esearch')).reply(200, searchResponse);
+        mock.onGet(new RegExp('esummary')).reply(200, summaryResponse);
+
+        //When
+        const result = await search(event);
+
+        //Then
+        expect(result).to.not.be.null;
+        expect(result.statusCode).to.equal(200);
+
+        const response = JSON.parse(result.body) as PublicationGroup;
+        expect(response.publications.length).to.equal(20);
+        expect(response.count).to.equal("3671832");
+        expect(response.queryKey).to.equal("1");
+        expect(response.webEnv).to.equal("NCID_1_253755776_130.14.22.215_9001_1527878257_2130018231_0MetA0_S_MegaStore");
+
 
     });
 
