@@ -20,7 +20,12 @@ export interface Publication {
     pubmedId: string,
     doi: string
 }
-
+export interface PublicationGroup {
+    count: string,
+    webEnv: string,
+    queryKey: string,
+    publications: Publication[]
+}
 export interface Response {
     statusCode: number;
     body: string;
