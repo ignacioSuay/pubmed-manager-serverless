@@ -19,8 +19,8 @@ async function buildPublicationDetails(id) {
     const fetch = await axios(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=${id}&rettype=Abstract`);
     const fetchResult = convert.xml2js(fetch.data, {compact: true});
 
-    let abstractText;
-    if (fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text) {
+    let abstractText = "";
+    if (fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract && fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text) {
         abstractText = fetchResult.PubmedArticleSet.PubmedArticle.MedlineCitation.Article.Abstract.AbstractText._text;
     }
     return {
