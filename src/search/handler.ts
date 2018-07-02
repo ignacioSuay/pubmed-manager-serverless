@@ -2,6 +2,7 @@ import axios from "axios";
 import {ArticleId, PubMedSearch, PubMedSummary, PubMedSummaryItem} from "../model/pubmed/pubmed.types";
 import {Author, Publication, PublicationGroup, Response} from "../model/publication.type";
 
+const decode = require("unescape");
 
 export const search = async (event) => {
     console.log("running search");
@@ -62,7 +63,7 @@ function transformPublication(pub: PubMedSummaryItem): Publication {
 
     return {
         uid: pub.uid,
-        title: pub.title,
+        title: decode(pub.title),
         pubdate: pub.pubdate,
         epubdate: pub.epubdate,
         source: pub.source,

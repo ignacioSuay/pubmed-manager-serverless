@@ -29,7 +29,7 @@ describe('search publications', () => {
 
         const lastPub = resPubs[19];
         expect(lastPub.uid).to.equal("29857301");
-        expect(lastPub.title).to.equal("Polymeric nano-encapsulation of 5-fluorouracil enhances anti-cancer activity and ameliorates side effects in solid Ehrlich Carcinoma-bearing mice.");
+        expect(lastPub.title).to.equal("Anion photoelectron spectroscopy and chemical bonding of ThO<sub>2</sub><sup>-</sup> and ThO<sub>3</sub><sup/>.");
         expect(lastPub.pubdate).to.equal("2018 May 29");
         expect(lastPub.epubdate).to.equal("2018 May 29");
         expect(lastPub.source).to.equal("Biomed Pharmacother");
