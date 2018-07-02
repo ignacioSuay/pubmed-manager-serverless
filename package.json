@@ -24,6 +24,7 @@
   "author": "Ignacio Suay",
   "license": "MIT",
   "dependencies": {
-    "serverless": "^1.27.3"
+    "serverless": "^1.27.3",
+    "unescape": "^1.0.1"
   }
 }
