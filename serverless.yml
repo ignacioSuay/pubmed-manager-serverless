@@ -23,3 +23,9 @@ functions:
         - http:
             method: get
             path: publications/{id}
+  postFavorite:
+    handler: src/saveFavorite/handler.ts
+    events:
+    - http:
+        method: post
+        path: favorites
