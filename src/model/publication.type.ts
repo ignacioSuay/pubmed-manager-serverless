@@ -1,3 +1,5 @@
+import {PubMedSummary} from "./pubmed/pubmed.types";
+
 export interface Author {
     name: string,
     authType: string
@@ -33,4 +35,9 @@ export interface Response {
 
 export interface PublicationDetails {
     abstract: string
+}
+
+export interface FavoriteItem {
+    id: string
+    publications: Publication[]
 }
