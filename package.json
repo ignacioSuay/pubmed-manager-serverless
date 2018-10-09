@@ -24,6 +24,8 @@
   "author": "Ignacio Suay",
   "license": "MIT",
   "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "aws-sdk": "^2.330.0",
     "serverless": "^1.27.3",
     "unescape": "^1.0.1"
   }
