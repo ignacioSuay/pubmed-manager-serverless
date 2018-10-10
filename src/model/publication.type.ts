@@ -36,8 +36,3 @@ export interface Response {
 export interface PublicationDetails {
     abstract: string
 }
-
-export interface FavoriteItem {
-    id: string
-    publications: Publication[]
-}

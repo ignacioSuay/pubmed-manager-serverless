@@ -1,0 +1,27 @@
+{
+  "body": {
+    "id": 1,
+    "item": {
+      "uid": 1,
+      "title": "test",
+      "pubdate": "test",
+      "epubdate": "test",
+      "source": "test",
+      "authors": [
+        {}
+      ],
+      "lastauthor": "test",
+      "volumen": "test",
+      "issue": "test",
+      "pages": "test",
+      "lang": "test",
+      "issn": "test",
+      "pubtype": [
+        {}
+      ],
+      "pubmedId": "test",
+      "doi": "test"
+    }
+  }
+}
+

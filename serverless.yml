@@ -3,7 +3,7 @@ service:
 
 # Add the serverless-webpack plugin
 plugins:
-  - serverless-webpack
+- serverless-webpack
 
 provider:
   name: aws
@@ -14,17 +14,17 @@ functions:
   search:
     handler: src/search/handler.search
     events:
-      - http:
-          method: get
-          path: publications
+    - http:
+        method: get
+        path: publications
   details:
-      handler: src/details/handler.getPublicationDetails
-      events:
-        - http:
-            method: get
-            path: publications/{id}
+    handler: src/details/handler.getPublicationDetails
+    events:
+    - http:
+        method: get
+        path: publications/{id}
   postFavorite:
-    handler: src/saveFavorite/handler.ts
+    handler: src/saveFavorite/handler.saveFavorite
     events:
     - http:
         method: post

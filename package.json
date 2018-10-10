@@ -24,6 +24,8 @@
   "author": "Ignacio Suay",
   "license": "MIT",
   "dependencies": {
+    "@aws/dynamodb-data-mapper": "0.7.3",
+    "@aws/dynamodb-data-mapper-annotations": "0.7.3",
     "@types/aws-sdk": "^2.7.0",
     "aws-sdk": "^2.330.0",
     "serverless": "^1.27.3",
