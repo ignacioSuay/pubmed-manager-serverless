@@ -1,9 +1,12 @@
 import {Publication} from "../publication.type";
-import {table} from "@aws/dynamodb-data-mapper-annotations";
+import {hashKey, table, attribute} from "@aws/dynamodb-data-mapper-annotations";
 
-// @ts-ignore
 @table('Favorite')
 export class FavoriteItem {
+
+    @hashKey()
     id: string;
+
+    @attribute()
     publications: Publication[];
 }
