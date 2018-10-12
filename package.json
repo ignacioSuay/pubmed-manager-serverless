@@ -28,7 +28,6 @@
     "@aws/dynamodb-data-mapper-annotations": "0.7.3",
     "@types/aws-sdk": "^2.7.0",
     "aws-sdk": "^2.330.0",
-    "serverless": "^1.27.3",
     "unescape": "^1.0.1"
   }
 }
