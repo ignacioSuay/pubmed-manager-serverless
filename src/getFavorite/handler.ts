@@ -8,11 +8,14 @@ import {DataMapper} from "@aws/dynamodb-data-mapper";
 const client = new DynamoDB({region: 'eu-west-1'});
 const mapper = new DataMapper({client});
 
-export const saveFavorite = async (event) => {
-    console.log(event);
+export const getFavorites = async (event) => {
 
-    const item = event.body.item;
-    const id = event.body.id;
+    let id = event.pathParameters.id;
+    if (!id) {
+        return buildResponse(500, "device id is not present");
+    }
+
+    console.log("getting favorites for id ", id);
 
     const searchItem: FavoriteItem = Object.assign(new FavoriteItem, {id: id, publications: null});
     let userPubs: FavoriteItem;
@@ -20,21 +23,10 @@ export const saveFavorite = async (event) => {
         userPubs = await mapper.get(searchItem);
     } catch (e) {
         console.log("No item found");
-    }
-    let pubs: Publication[] = (userPubs && userPubs.publications) ? [...userPubs.publications, item] : [item];
-
-    const favItem : FavoriteItem =  Object.assign(new FavoriteItem, {id: id, publications: pubs});
-
-    let savedItem;
-    try {
-        savedItem = await mapper.put({item: favItem});
-        console.log("Item saved in db", savedItem);
-    } catch (e) {
-        console.log("Error while saving into db", e);
-        return buildResponse(500, e);
+        return buildResponse(200, {});
     }
 
-    return buildResponse(200, savedItem);
+    return buildResponse(200, userPubs.publications);
 };
 
 function buildResponse(status, body): Response {

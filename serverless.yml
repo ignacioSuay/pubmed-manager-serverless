@@ -23,8 +23,14 @@ functions:
     - http:
         method: get
         path: publications/{id}
+  getFavorite:
+    handler: src/getFavorite/handler.getFavorites
+    events:
+    - http:
+        method: get
+        path: favorites/{id}
   postFavorite:
-    handler: src/saveFavorite/handler.saveFavorite
+    handler: src/postFavorite/handler.postFavorite
     events:
     - http:
         method: post
