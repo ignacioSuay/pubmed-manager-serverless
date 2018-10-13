@@ -10,9 +10,9 @@ const mapper = new DataMapper({client});
 
 export const postFavorite = async (event) => {
     console.log(event);
-
-    const item = event.body.item;
-    const id = event.body.id;
+    const body = JSON.parse(event.body);
+    const item = body.item;
+    const id = body.id;
 
     const searchItem: FavoriteItem = Object.assign(new FavoriteItem, {id: id, publications: null});
     let userPubs: FavoriteItem;
@@ -27,6 +27,7 @@ export const postFavorite = async (event) => {
 
     let savedItem;
     try {
+        console.log("saving: ", JSON.stringify(favItem));
         savedItem = await mapper.put({item: favItem});
         console.log("Item saved in db", savedItem);
     } catch (e) {
