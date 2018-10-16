@@ -17,6 +17,7 @@
     "mocha": "^5.2.0",
     "serverless-webpack": "5.1.5",
     "ts-loader": "4.3.0",
+    "ts-mockito": "^2.3.1",
     "typescript": "2.8.3",
     "webpack": "4.8.3",
     "xml-js": "^1.6.4"
