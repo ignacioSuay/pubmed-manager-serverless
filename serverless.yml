@@ -40,4 +40,10 @@ functions:
     - http:
         method: post
         path: favorites
+  deleteFavorite:
+    handler: src/deleteFavorite/handler.deleteFavorites
+    events:
+    - http:
+        method: delete
+        path: favorites/{deviceId}/{pubId}
 
