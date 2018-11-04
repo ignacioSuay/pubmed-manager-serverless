@@ -6,19 +6,12 @@ const DynamoDB = require('aws-sdk/clients/dynamodb');
 const client = new DynamoDB({region: 'eu-west-1'});
 
 describe('save favorites', () => {
-
-    before((done) => {
-        const params = {TableName:"Favorite", Key: {"id" :{"S": "testId"}}};
-        client.deleteItem(params, function(err, data){
-            if(err)
-                console.log("error " + err);
-            if(data)
-                console.log("Deleting testId");
-            done()
-        })
-    });
+    const params = {TableName:"Favorite", Key: {"id" :{"S": "testId"}}};
 
     it('should save a favorite', async function () {
+
+        //given
+        const noItem = await client.getItem(params).promise();
 
         //when
         const result = await postFavorite(event);
@@ -34,5 +27,19 @@ describe('save favorites', () => {
         expect(favoriteSaved.publications[0].title).to.equal("Cardiovascular profile in critically ill elderly medical patients: prevalence, mortality and length of stay.");
         expect(favoriteSaved.publications[0].uid).to.equal("25582073");
         expect(favoriteSaved.publications[0].pubtype[0]).to.equal("Journal Article");
+
+        const foundItem = await client.getItem(params).promise();
+        expect(noItem.Item).to.be.undefined;
+        expect(foundItem.Item.id.S).to.eq(favoriteSaved.id);
     })
+
+    after((done) => {
+        client.deleteItem(params, function(err, data){
+            if(err)
+                console.log("error " + err);
+            if(data)
+                console.log("Deleting testId");
+            done()
+        })
+    });
 });
